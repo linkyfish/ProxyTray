@@ -1,0 +1,26 @@
+<assembly>
+  <formats>
+    <format>zip</format>
+  </formats>
+  <dependencySets>
+    <dependencySet>
+      <useProjectArtifact>true</useProjectArtifact>
+      <outputDirectory>.</outputDirectory>
+    </dependencySet>
+  </dependencySets>
+  <fileSets>
+    <fileSet>
+      <outputDirectory>/</outputDirectory>
+      <includes>
+        <include>README.txt</include>
+        <include>icon.png</include>
+        <include>proxy.conf</include>
+        <include>proxy.bat</include>
+        <include>plink.exe</include>
+        <include>proxy.properties</include>
+        <include>proxy.properties</include>
+      </includes>
+    </fileSet>
+  </fileSets>
+</assembly>
+
